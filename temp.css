@@ -1,0 +1,162 @@
+/* style.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px hsl(223, 64%, 98%);
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+    justify-content: center; 
+    margin: 0 auto;
+    max-width: 1200px;
+    
+    
+  }
+  
+  
+  .icon{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .nolink{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+    opacity: 0.5;
+  }
+
+  .subheader{
+    display: flex;
+    gap: 40px;
+
+  }
+
+/* .nav{
+    justify-content: space-evenly;
+} */
+
+.picsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+    justify-content: center; 
+    margin: 70px 0;
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+}
+
+.picsection2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.picsection2 img{
+  max-width: 88%;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+
+.b{
+  border-radius: 10px;
+
+}
+.q{
+  border-radius: 5px;
+}
+
+.mainpic img{
+  object-fit: cover;
+  object-position: 25% 100%;
+  border-radius: 10%;
+  max-width: 100%;
+  justify-content: center;
+
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  gap: 20px;
+  flex: 1;
+}
+
+.sneka{
+  color: hsl(26, 100%, 55%);
+}
+
+.bullshit{
+  opacity: 0.6;
+}
+
+.money{
+  display: flex;
+  gap: 10px;
+}
+
+.fif{
+  background-color: hsl(25, 100%, 94%);
+  color: hsl(26, 100%, 55%);
+  font-size: 12px;
+  padding: 2px 2px 2px 2px;
+  max-width: max-content;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .twe{
+  font-size: 30px;
+ }
+
+.rired{
+  opacity: 0.3;
+}
+
+.button{
+  display: flex;
+  gap: 25px;
+}
+
+.buttonsub{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: hsl(223, 64%, 98%);
+  padding: 0px 10px;
+  border-radius: 5px;
+  
+}
+
+.add{
+  padding: 10px 50px;
+  color: white;
+  background-color: hsl(26, 100%, 55%);
+  border-radius: 8px;
+}
+
+.fall{
+  font-size: 40px;
+}
